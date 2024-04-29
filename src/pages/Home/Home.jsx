@@ -1,8 +1,13 @@
 import React from 'react'
+import LogoHome from '../../components/LogoHome/LogoHome'
+import HomeImg from '../../components/HomeImg/HomeImg'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <LogoHome/>
+      <HomeImg/>
+    </div>
   )
 }
 

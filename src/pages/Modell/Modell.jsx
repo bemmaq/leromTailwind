@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+
+import All from "../All/All";
+
 
 const Modell = () => {
   return (
-    <div>Modell</div>
-  )
-}
+    <div >
+      <All/>    
+    </div>
+  );
+};
 
-export default Modell
+export default Modell;

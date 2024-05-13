@@ -1,12 +1,14 @@
 import React from "react";
 
 import All from "../All/All";
+import Company from "../Company/Company";
 
 
 const Modell = () => {
   return (
     <div >
-      <All/>    
+      <All/> 
+      <Company/>   
     </div>
   );
 };

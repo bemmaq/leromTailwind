@@ -7,7 +7,7 @@ const LogoHome = () => {
   return (
     <div>
       <div
-        className="bg-cover bg-center h-screen h-[500px]"
+        className="bg-cover bg-center h-[500px]"
         style={{ backgroundImage: `url(${logo2})` }}
       >
         <Container>

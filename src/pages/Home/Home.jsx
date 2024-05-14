@@ -4,6 +4,7 @@ import HomeImg from '../../components/HomeImg/HomeImg'
 import Section from '../Section/Section'
 import Video from '../Video/Video'
 import Information from '../Information/Information'
+import Interesting from '../Interesting/Interesting'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Section/>
       <Video/>
       <Information/>
+      <Interesting/>
       
     </div>
   )

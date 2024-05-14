@@ -5,6 +5,7 @@ import Section from '../Section/Section'
 import Video from '../Video/Video'
 import Information from '../Information/Information'
 import Interesting from '../Interesting/Interesting'
+import Digital from '../Digital/Digital'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Video/>
       <Information/>
       <Interesting/>
+      <Digital/>
       
     </div>
   )

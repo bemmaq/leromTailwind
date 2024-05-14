@@ -13,7 +13,7 @@ const All = () => {
   return (
     <Container>
       <div className="flex gap-3 mt-10 ">
-        <Link to='/company' onClick={() => {handleButtonClick("company"); }}>
+        <Link to='/modell' onClick={() => {handleButtonClick("company"); }}>
           <button
             className={`text-gray outline-none w-[150px] h-[50px] border-2 rounded-md text-center ${
               activeButton === "company" ? "bg-red-600 text-white" : "bg-gray-200"

@@ -6,8 +6,8 @@ const Company = () => {
   return (
     <Container>
       <div className="font-semibold">
-        <h2 className="text-3xl pt-10">Company</h2>
-        <All />
+        
+       
         <p className="pt-5">
           Мебельная компания "Лером" ведет свою историю с ноября 1997 года. За
           прошедшие годы компания стала самым большим предприятием в России по

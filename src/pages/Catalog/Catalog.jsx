@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 
 const Catalog = () => {
 
@@ -8,6 +9,8 @@ const Catalog = () => {
     <div>
       <Header/>
        <Outlet/>
+       <hr className='my-10' />
+       <Footer/>
     </div>
   )
 }

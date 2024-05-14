@@ -3,6 +3,7 @@ import LogoHome from '../../components/LogoHome/LogoHome'
 import HomeImg from '../../components/HomeImg/HomeImg'
 import Section from '../Section/Section'
 import Video from '../Video/Video'
+import Information from '../Information/Information'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <HomeImg/>
       <Section/>
       <Video/>
+      <Information/>
       
     </div>
   )
